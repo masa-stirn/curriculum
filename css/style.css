@@ -1,0 +1,460 @@
+/* INFO */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+.right{
+    justify-self: center;
+    align-self: end;
+}
+
+/* ECTS styles */
+
+.core-ECTS{
+    margin-left: 10px;
+}
+
+
+/* graph Info 1.sem */
+/* RESET STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.chart-skills {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.chart-skills *,
+.chart-skills::before {
+  box-sizing: border-box;
+}
+
+
+/* CHART-SKILLS STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.chart-skills {
+  position: relative;
+  width: 350px;
+  height: 175px;
+  overflow: hidden;
+}
+
+.chart-skills::before,
+.chart-skills::after {
+  position: absolute;
+}
+
+.chart-skills::before {
+  content: '';
+  width: inherit;
+  height: inherit;
+  border: 45px solid rgba(211, 211, 211, .3);
+  border-bottom: none;
+  border-top-left-radius: 175px;
+  border-top-right-radius: 175px;
+}
+
+.chart-skills::after {
+  content: '';
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+.chart-skills li {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border: 45px solid;
+  border-top: none;
+  border-bottom-left-radius: 175px;
+  border-bottom-right-radius: 175px;
+  transform-origin: 50% 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  animation-fill-mode: forwards;
+  animation-duration: .4s;
+  animation-timing-function: linear;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.chart-skills li:nth-child(1) {
+  z-index: 4;
+  border-color: green;
+  animation-name: rotate-one;
+}
+
+.chart-skills li:nth-child(2) {
+  z-index: 3;
+  border-color: firebrick;
+  animation-name: rotate-two;
+  animation-delay: .4s;
+}
+
+.chart-skills li:nth-child(3) {
+  z-index: 2;
+  border-color: steelblue;
+  animation-name: rotate-three;
+  animation-delay: .8s;
+}
+
+.chart-skills li:nth-child(4) {
+  z-index: 1;
+  border-color: orange;
+  animation-name: rotate-four;
+  animation-delay: 1.2s;
+}
+
+.chart-skills span {
+  position: absolute;
+  font-size: .85rem;
+  backface-visibility: hidden;
+  animation: fade-in .4s linear forwards;
+}
+
+.chart-skills li:nth-child(1) span {
+  top: 5px;
+  left: 10px;
+  transform: rotate(-30deg);
+}
+
+.chart-skills li:nth-child(2) span {
+  top: 20px;
+  left: 10px;
+  transform: rotate(-90deg);
+  animation-delay: .4s;
+}
+
+.chart-skills li:nth-child(3) span {
+  top: 18px;
+  left: 10px;
+  transform: rotate(-150deg);
+  animation-delay: .8s;
+}
+
+.chart-skills li:nth-child(4) span {
+  top: 10px;
+  left: 10px;
+  transform: rotate(-180deg);
+  animation-delay: 1.2s;
+}
+
+
+
+
+/* ANIMATIONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@keyframes rotate-one {
+  100% {
+    transform: rotate(30deg);
+    /**
+     * 12% => 21.6deg 25%
+     */
+  }
+}
+
+@keyframes rotate-two {
+  0% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(90deg);
+    /**
+     * 32% => 57.6deg
+     * 57.6 + 21.6 => 79.2deg
+     */
+  }
+}
+
+@keyframes rotate-three {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(150deg);
+    /**
+     * 34% => 61.2deg
+     * 61.2 + 79.2 => 140.4deg
+     */
+  }
+}
+
+@keyframes rotate-four {
+  0% {
+    transform: rotate(150deg);
+  }
+  100% {
+    transform: rotate(180deg);
+    /**
+     * 22% => 39.6deg
+     * 140.4 + 39.6 => 180deg
+     */
+  }
+}
+
+@keyframes fade-in {
+  0%,
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* chart 3rd semester modification */
+.chart-skills3 li:nth-child(1) {
+  z-index: 4;
+  border-color: green;
+  animation-name: rotate-one3;
+}
+
+.chart-skills3 li:nth-child(2) {
+  z-index: 3;
+  border-color: firebrick;
+  animation-name: rotate-two3;
+  animation-delay: .4s;
+}
+
+.chart-skills3 li:nth-child(3) {
+  z-index: 2;
+  border-color: steelblue;
+  animation-name: rotate-three3;
+  animation-delay: .8s;
+}
+
+.chart-skills3 li:nth-child(4) {
+  z-index: 1;
+  border-color: orange;
+  animation-name: rotate-four3;
+  animation-delay: 1.2s;
+}
+
+@keyframes rotate-one3 {
+  100% {
+    transform: rotate(45deg);
+    /**
+     * 12% => 21.6deg 25%
+     */
+  }
+}
+
+@keyframes rotate-two3 {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(90deg);
+    /**
+     * 32% => 57.6deg
+     * 57.6 + 21.6 => 79.2deg
+     */
+  }
+}
+
+@keyframes rotate-three3 {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(135deg);
+    /**
+     * 34% => 61.2deg
+     * 61.2 + 79.2 => 140.4deg
+     */
+  }
+}
+
+@keyframes rotate-four3 {
+  0% {
+    transform: rotate(135deg);
+  }
+  100% {
+    transform: rotate(180deg);
+    /**
+     * 22% => 39.6deg
+     * 140.4 + 39.6 => 180deg
+     */
+  }
+}
+
+
+
+/* core areas style */
+
+.coreWrap, .examWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.height0{
+    height:0;
+    overflow: hidden;
+}
+.height02{
+    height:0;
+    overflow: hidden;
+}
+.open, .openE{
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 20px;
+}
+.accordian{
+    background: #004256;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    color: #fff;
+}
+.core-heading{
+        grid-column: 1/-1;
+        margin-left: 10px;
+        margin-top: 100px;
+    font-size: 40px;
+}
+.coreCont h3{
+    color: white;
+}
+
+.core-areas-nav2{
+    grid-column: 1/-1;
+    align-self: end;
+}
+.core-active{
+    background-color: #00A7D9;
+    border: none;
+}
+.core-active .sem2color{
+    background-color: #00A7D9;
+}
+.coreCont{
+    background-color: #00A7D9;
+    padding: 1em;
+}
+
+.core-areas-nav-top2{
+    background-color: #00A7D9;
+    height: 10px;
+}
+.accordian li{
+    list-style: circle;
+    margin-left: 30px;
+}
+.core-img{
+    max-width: 22em;
+     justify-self: center;
+    align-self: center;
+}
+.open p, .open ul, .openE p {
+    text-align: left;
+}
+
+/* footer bar arrow style*/
+.arrow-up{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.hide{
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+/* exams styles */
+.exam2-alignment{
+    margin-top: 50px;
+}
+
+/* semester 2 color green */
+.sem2color{
+     background: #5fb471;
+}
+.sem3color{
+     background: #f49933;
+}
+/* svg ani */
+.svg-div{
+    position: relative;
+}
+svg {
+    position: absolute;
+    left: -25em;
+    width: 61em;
+    justify-self: center;
+    align-self: center;
+}
+.svg-img{
+    position: absolute;
+}
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 3s linear forwards;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* call to action button ani */
+.btn {
+  color: #777777;
+  text-shadow: 0 5px 5px #a1a1a1, 0 10px 15px #888888;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  letter-spacing: -1px;
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 18%;
+  transform: translateX(-50%) translateY(-50%);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.btn:before,
+.btn:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 8px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 5s forwards alternate ease-in-out tipsy;
+}
+
+.btn:before {
+  border-color: #f49933 #f49933 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+.btn:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #f49933 #f49933;
+  box-shadow: 8px 8px 12px rgba(46, 46, 49, .5);
+}
+@keyframes tipsy {
+  0 {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}

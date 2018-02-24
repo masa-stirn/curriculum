@@ -1,0 +1,226 @@
+[
+    {
+    "id": "business",
+    "name": "Business",
+    "content": "The core area is intended to provide the students with the necessary qualifications to understand the commercial framework of the business and digital business models, apply digital user data and take an innovative approach to multimedia production. Students must understand the multimedia designer’s role in the value chain in a multimedia production and be able to plan, manage and car- ry out a multimedia production.",
+    "ECTS":"15",
+    "knowledge": [
+            {
+            "seamester1": ["development methods for multimedia production", "copyright and licensing methods in multimedia production", "the company’s strategy as a basis for multimedia production and the multimedia designer’s position in the value chain"
+                ]
+            },
+            {
+            "seamester2": ["the company’s external environment, including its stakeholders, and the company’s re- source base","tools applied in practice and the use of data to optimise multimedia production","key methods and tools related to project management and estimation of multimedia productions"]
+            },
+            {
+        "seamester3": [
+                "digital business models applied in practice","budgeting of multimedia productions"         ]
+            }
+    ],
+    "skills": [
+            {
+            "seamester1": [
+                "apply key tools and digital data to optimise multimedia production"
+                           ]
+            },
+            {
+        "seamester2": [
+                "use important tools and digital data for the optimisation of multimedia production","plan and evaluate project management and quality assurance in team-based multimedia productions"
+                       ]
+            },
+            {
+        "seamester3":  [
+                "assess and analyse data and present solutions as a basis for innovative development of multimedia productions","assess, apply and communicate innovative methods in multimedia production"
+                        ]
+            }
+    ],
+        "competencies": [
+            {
+            "seamester1": [
+                "manage relevant methods and tools for planning and managing a simple multimedia production"
+                           ]
+            },
+            {
+        "seamester2": [
+                "participate in teams as well as manage and adjust planning, control and quality assurance in the production of complex digital user interfaces"
+                       ]
+            },
+            {
+        "seamester3":  [
+                "independently keep up to date and acquire new knowledge of business aspects that sup- port the development of advanced digital multimedia production"
+                        ]
+            }
+    ]
+},
+    {
+        "id": "communication",
+    "name": "Communication and Presentation",
+    "content": "The core area is intended to enable the students to understand digital media and create innova- tive digital user experiences. The students are capable of producing digital content and user- oriented communication.",
+    "ECTS":"15",
+    "knowledge": [
+            {
+            "seamester1": [
+                "key theory and method for user understanding and content production, including infor- mation architecture for digital media","key theory and method within digital user experiences in relation to multimedia produc- tion, including test methods"
+                ]
+            },
+            {
+            "seamester2": [
+                "central methods and theory for digital content production in a multimedia production, in- cluding information architecture","central theory and methods within digital user experiences in relation to multimedia pro- duction"
+                           ]
+            },
+            {
+        "seamester3": [
+                " international digital trends and the use of digital media and technologies by different user groups","key theory and method for planning user interaction and communication in various digital media productions"
+                        ]
+            }
+    ],
+    "skills": [
+            {
+            "seamester1": [
+                "collect and apply empirical data on users and situations of use in practice","produce digital content at a basic level based on user understanding","plan and conduct user testing of a multimedia production"
+                           ]
+            },
+            {
+        "seamester2": [
+                "combine and apply key methods for planning and producing user-oriented content in team-based multimedia productions","apply key theory, method and tools to support digital user experiences, including test methods"
+                       ]
+            },
+            {
+        "seamester3":  [
+                "transform knowledge of current digital user trends into planning and development of user experiences in advanced digital media productions","assess, adjust and present solutions for innovative communication in advanced digital media productions","communicate support of digital user experiences to stakeholders"
+                        ]
+            }
+    ],
+        "competencies": [
+            {
+            "seamester1": [
+                "manage the development of communication for simple digital interfaces."
+                           ]
+            },
+            {
+        "seamester2": [
+                "participate in teams and contribute to the production of digital, user-oriented content and create user experiences in complex digital user interfaces"
+                       ]
+            },
+            {
+        "seamester3":  [
+                "independently keep up to date and acquire new knowledge about the users’ application of technologies and media in an international digital mediascape"
+                        ]
+            }
+    ]
+},
+
+    {
+        "id": "design",
+    "name": "Design and Visualisation ",
+    "content": "The core area is intended to enable the students to design and develop advanced digital user inter- faces based on user-oriented design principles and incorporating international development trends within digital design.",
+    "ECTS":"25",
+    "knowledge": [
+            {
+            "seamester1": [
+                "basic principles for the composition and layout of digital design in multimedia production","design processes and documentation of digital design in multimedia production","media types in multimedia production","current digital exchange formats used in multimedia production"
+                ]
+            },
+            {
+            "seamester2": [
+                "relevant theories, tools and methods for the design and development of user-oriented de- sign and user experiences","methods for presenting data"
+                ]
+            },
+            {
+        "seamester3": [
+                "methods for presenting data","current international development trends in digital design"
+                        ]
+            }
+    ],
+    "skills": [
+            {
+            "seamester1": [
+                "apply key design processes for multimedia production, including documentation of the design process","use key theories, tools and methods for design and development of simple digital user in- terfaces"
+                           ]
+            },
+            {
+        "seamester2": [
+                "apply and combine multiple media forms of expression for design and production of user experience in digital user interfaces","apply key methods and design processes, and present solutions for the production and communication of digital user interfaces","assess and post-process graphic material to ensure consistency of design in multimedia productions","assess and apply a user-oriented approach in a digital design process"
+                       ]
+            },
+            {
+        "seamester3":  [
+                "assess and select multimedia designs and components for the development and production of advanced digital user experiences","assess and apply key international development trends to design, develop, adjust and maintain advanced digital user interfaces"
+                        ]
+            }
+    ],
+        "competencies": [
+            {
+            "seamester1": [
+                "handle different types of material for the production of digital user interfaces"
+                           ]
+            },
+            {
+        "seamester2": [
+                "handle process documentation and communication in relation to stakeholders","participate in teams and manage the design and development of digital user interfaces"
+                       ]
+            },
+            {
+        "seamester3":  [
+                "independently keep up to date and acquire new knowledge within international design trends, innovative technologies and advanced digital user interfaces"
+                        ]
+            }
+    ]
+},
+     {
+         "id": "development",
+    "name": "Interaction Development",
+    "content": "The core area is intended to enable the students to model, structure and develop complex digital user interfaces and to handle large data sets for presentation in digital user interfaces.",
+    "ECTS":"25",
+    "knowledge": [
+            {
+            "seamester1": [
+                "the structure and use of the Internet, with special emphasis on understanding client-server relationships and their impact on the development of digital user interfaces","relevant technologies for developing digital user interfaces","key methods for modelling, structuring and developing digital user interfaces"
+                ]
+            },
+            {
+            "seamester2": [
+                "key data persistence technologies","key and current programming paradigms for developing digital user interfaces","data formats and exchange of limited data sets, synchronously and asynchronously with server"
+                           ]
+            },
+            {
+        "seamester3": [
+                "key and current libraries and frameworks for developing advanced digital user interfaces","data structures, data formats and exchange of complex data sets with server"         ]
+            }
+    ],
+    "skills": [
+            {
+            "seamester1": [
+                "apply key technologies and development environments as well as version control methods to develop digital user interfaces in a multimedia production","use key methods for modelling and structuring by developing simple digital user interfaces in a multimedia production","use key technologies and methods of version control for a multimedia production"
+                           ]
+            },
+            {
+        "seamester2": [
+                "apply key programming principles, including control structures, functions and variables for the development of digital user interfaces","apply key technologies for handling and displaying content in the production of digital user interfaces","apply key technologies, methods and data formats for the exchange and presentation of data in digital user interfaces"
+                       ]
+            },
+            {
+        "seamester3":  [
+                "apply key technologies for exchanging and presenting complex data sets in digital user in- terfaces","assess, define, select and apply current libraries and frameworks for innovative develop- ment of advanced digital user interfaces in a multimedia production","communicate the development process to stakeholders"
+                        ]
+            }
+    ],
+        "competencies": [
+            {
+            "seamester1": [
+                "develop simple digital user interfaces","handle key technologies and methods for version control of multimedia productions"
+                           ]
+            },
+            {
+        "seamester2": [
+                " participate in teams with a view to developing digital user interfaces","handle process documentation and communication in relation to stakeholders, including planning and documentation of multimedia productions as well as data exchange via digital user interfaces"
+                       ]
+            },
+            {
+        "seamester3":  [
+                "independently keep up to date and acquire new knowledge within the latest international technological trends and engage in innovative development of multimedia productions with special emphasis on the user interface"
+                        ]
+            }
+    ]
+}
+]

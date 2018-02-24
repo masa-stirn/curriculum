@@ -1,0 +1,464 @@
+body {
+
+  font: normal 16px/1.5 'Roboto', sans-serif;
+  /*font-family: "HelveticaNeueW01-47LtCn 692686", "Arial Narrow", Verdana, helvetica, sans-serif;*/
+  padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+}
+#info {
+    height: auto;
+    margin-bottom: 2em;
+}
+/* MAIN */
+
+.header {
+    background-color: rgba(255,255,255,0.9);
+    height: 50px;
+    display: grid;
+    grid-template-columns: 120px 155px 1fr 1fr 1fr 1fr;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+}
+/* search bar */
+.search {
+    display: inline-block;
+    float:left;
+    background: #f1f1f1;
+    border-radius: 25px;
+    padding: 3px;
+    padding-left:6px;
+    align-self: center;
+    margin-left: 10px;
+}
+input {
+    height: 15px;
+    border: transparent;
+    padding-left: 10px;
+    background: #f1f1f1;
+}
+form{
+    position: relative;
+}
+#hide-me {
+    position: absolute;
+    opacity: 0;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.fa {
+    color: grey;
+}
+.fa-icon{
+   font-family: Arial, "FontAwesome";
+}
+input:focus::-webkit-input-placeholder{
+    color:transparent;
+}
+/* icons*/
+.icons img {
+    display: inline-block;
+    float:left;
+    width: 30px;
+    margin-left: .6em;
+    cursor: pointer;
+}
+.icons img:hover{
+    opacity: 0.8;
+}
+.icons{
+    align-self: center;
+}
+/* top nav styles */
+
+nav {
+    grid-column-start: 3;
+  grid-column-end: 7;
+}
+
+.navbar {
+	float: right;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #95989A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #95989A;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+/*    background-color: red;*/
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+li, ul {
+margin: 0;
+padding: 0;
+}
+
+/* active nav tab style */
+.dropdown .active {
+    color: black;
+    font-weight: 500;
+}
+/* call to action enroll */
+.call-to-action{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.call-to-action h3{
+    font-size: 22px;
+    font-weight: 100;
+    margin: 0;
+}
+.call-to-action button{
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 5px;
+    border-radius: 8px;
+    width: 80px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+    background: #0090BC;
+    color: #fff;
+    width: 100px;
+  height: 35px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.call-to-action-index button {
+  background: #EE5861;
+}
+
+.call-to-action .sem2color{
+   background: #5fb471;
+}
+.call-to-action .sem3color{
+   background: #f49933;
+}
+.call-to-action .sem4color{
+   background: #845077;
+}
+.call-to-action button:hover{
+    transition: all 0.6s ease;
+    background: #00A9DD;
+    box-shadow: 0px 5px 10px rgba(0,169,221, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.call-to-action-index:hover button {
+  background: #F2858C;
+}
+
+.call-to-action button.sem2color:hover{
+    background-color: #99cfa4;
+    box-shadow: 0px 5px 10px rgba(95, 180, 113, 0.4);
+}
+.call-to-action button.sem3color:hover{
+    background-color: #f8be7d;
+    box-shadow: 0px 5px 10px rgba(244, 153, 51, 0.4);
+}
+.call-to-action button.sem4color:hover{
+    background-color: #A5739C;
+    box-shadow: 0px 5px 10px rgba(102, 60, 92, 0.4);
+}
+
+/* logo and mmd text box */
+
+.main-logo-box{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 35vh;
+    left: 20vw;
+}
+.logo img {
+    max-width: 250px;
+}
+.text h3 {
+    margin: 0;
+    font-weight: 100;
+}
+
+/* 1. semester CORE AREAS FOOTER */
+
+.core-areas-nav{
+    position: fixed;
+    bottom:0;
+    z-index:100;
+}
+.core-areas-nav-top {
+    display: grid;
+    height: 40px;
+    width: 100vw;
+    background-color: #00A7D9;
+    cursor: pointer;
+}
+
+
+.core-areas-nav-index .core-areas-nav-top {
+  background-color: #EE5861;
+}
+
+.core-areas-navs {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    z-index: 2;
+}
+.core-box {
+    height: 100px;
+    background-color: #0090BC;
+    border: 1px solid lightgray;
+    position: relative;
+    display: grid;
+
+}
+
+.core-areas-nav-index .core-box {
+  background-color: #EE5861;
+}
+
+.core-areas-nav h5, .core-box h5 {
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #fff;
+}
+.core-box:hover {
+    transition: background-color .6s ease;
+    background-color: #00A7D9;
+    cursor: pointer;
+}
+.core-box.sem2color:hover {
+    background-color: #99cfa4;
+}
+.core-box.sem3color:hover {
+    background-color: #f8be7d;
+}
+.core-box.sem4color:hover {
+    background-color: #A5739C;
+}
+
+.core-areas-nav-index .core-box:hover {
+  background-color: #F2858C;
+}
+
+/* menu style */
+@media only screen and (max-width: 900px) {
+    .header {
+    display: inline-block;
+    position: fixed;
+    z-index: 1000;
+    height: auto;
+    margin-top: 10px;
+}
+}
+/*media query mobile layout */
+@media only screen and (max-width: 800px) {
+    .coreWrap, .examWrap, .container{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+    .core-img{
+        margin-bottom: 50px;
+    }
+
+}
+
+/*media query mobile */
+@media only screen and (max-width: 450px) {
+    .core-areas-navs{
+        display: block;
+        z-index: 1000;
+    }
+    .core-box {
+        height: 50px;
+    }
+    .core-img{
+        width: 18em;
+    }
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.homeCont {
+  margin-bottom: 4em;
+  padding-bottom: 1em;
+  padding: 1em;
+  border-bottom: 1px grey solid;
+  background-color: #EE5861;
+}
+
+.fourCont {
+  margin-bottom: 4em;
+  padding-bottom: 1em;
+  padding: 1em;
+  border-bottom: 1px grey solid;
+  background-color: #A5739C;
+}
+
+.homeCont, #ects, #cores h2, .fourCont {
+  margin: 1em;
+}
+
+.ectsHome {
+  display: flex;
+}
+
+#ects section {
+  min-width: 100%;
+}
+
+#homeChart {
+  width: 80%;
+  margin-top: 8em;
+}
+
+.homeCont span {
+  background-color: #F2858C;
+  padding: 1em;
+  display: block;
+}
+
+.fourCont span {
+  background-color: #E8D1E6;
+  padding: 1em;
+  display: block;
+}
+
+.fourContc #exam1, .fourContc #exam2, .fourContc #exam3, .fourContc #exam4, .fourContc #exam5 {
+  display: none;
+}
+
+#illustration img {
+    margin-top: 10%;
+    margin-bottom: 40%;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#internship {
+  padding: 1em;
+}
+
+.hide {
+  display: none!important;
+}
+
+footer {
+    display: flex;
+    background: #fbf7f5;
+    font-size: 12px;
+    margin-bottom: 12em;
+}
+footer div, footer section {
+  margin: 1em;
+  margin-top: 4em;
+}
+
+footer div #partners {
+  margin-left: 1em;
+}
+
+footer div #partners img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media only screen and (min-width: 900px) {
+  main, footer div {
+    display: flex;
+    /*grid-template-columns: 1fr, 1fr;*/
+  }
+
+  main #data, footer #data{
+    max-width: 50vw;
+  }
+
+  footer #partners {
+    margin-left: 4em;
+  }
+
+}
+.sem4color{
+    background: #A5739C;
+}
+

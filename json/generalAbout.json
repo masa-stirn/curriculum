@@ -1,0 +1,84 @@
+[{
+  "article": "ABOUT",
+  "sections":
+  [
+    {
+      "id": "sec1",
+      "title": "Name and title of programme",
+      "short": "The programme title is Academy Profession Degree Programme in Multimedia Design and Communication",
+      "text": " The Danish programme title is Erhvervsakademiuddannelsen inden for medie og kommunikation. Programme graduates have the right to use the title AP Graduate in Multimedia Design and Communication. The Danish title is Multimediedesigner AK. The programme is an academy profession programme corresponding to 120 ECTS points and graded at level 5 in the Danish Qualifications Framework for Higher Education. "
+    },
+    {
+      "id": "sec2",
+      "title": "Programme objective ",
+      "short": "The objective of the programme is to qualify graduates to independently design, plan, realise and manage multimedia tasks and to assist in the implementation, administration and maintenance of multimedia productions.",
+      "text": "The intended learning outcome includes the knowledge, skills and competencies set out in the Ministerial Order on the Academy Profession Degree Programme in Multimedia Design and Communication, appendix 1. The learning objectives are stated below."
+    },
+    {
+      "id": "sec11",
+      "title": "Programme elements and modules",
+      "short": "The programme is a full-time programme equating to two student full-year equivalents. One student full-year equivalent corresponds to one year of full-time study.",
+      "text": "One student full-year equivalent corresponds to 60 ECTS points in the European Credit Transfer System (ECTS). The programme thus equates to a total of 120 ECTS points. The programme is graded at level 5 in the Danish Qualifications Framework for Higher Education."
+    },
+    {
+      "id": "sec3",
+      "title": "Knowledge",
+      "short": "The graduate has acquired:",
+      "text": "<ul><li> knowledge of practice and key applied theory and method relevant to analysis, ideation, design, planning, realisation and management of multimedia tasks as well as the implementation, administration and maintenance of multimedia productions </li><li>an understanding of interdisciplinary multimedia issues in relation to both individual and team-based project work.</li></ul>"
+    },
+    {
+      "id": "sec4",
+      "title": "Skills",
+      "short": "The graduate has acquired the skills needed to:",
+      "text": "<ul><li>Apply key methods and tools relevant to analysis, ideation, design and planning as well as the realisation and management of multimedia tasks</li><li>evaluate practice-oriented issues in the multimedia field and propose and select possible solutions</li><li>communicate practice-oriented issues and possible solutions in the multimedia field to partners and users.</li></ul>"
+    },
+    {
+      "id": "sec10",
+      "title": "Competencies",
+      "short": "The graduate has acquired the competencies needed to:",
+      "text": "<ul><li>Independently undertake analysis, ideation, design and planning as well as the realisation and management of multimedia tasks and participate in the implementation, administration and maintenance of multimedia productions</li><li>handle development-oriented situations and be innovative in the tailoring of multimedia solutions to commercial conditions </li><li>acquire new knowledge, skills and competencies in the multimedia field </li><li>engage in management and cooperation with others regardless of educational, linguistic and cultural background </li><li>participate in and manage cooperation and communication in networks based on a professional approach.</li></ul>"
+    }
+  ]
+},
+
+{
+  "article": "ADMISSION-ENROLMENT",
+  "sections": [
+    {
+      "id": "sec5",
+      "title": "Admission",
+      "short": "Admission to the programme is subject to the rules set out in the Admissions Order."
+    },
+    {
+      "id": "sec6",
+      "title": "Disenrolment due to insufficient study activity",
+      "short": "Enrolment can be terminated for students who have not passed at least one exam within a consecutive period of at least one year."
+    },
+    {
+      "id": "sec7",
+      "title": "Criteria for assessment of active enrolment",
+      "short": "Students must actively participate in study activities, compulsory projects and assignments, tests and exams in accordance with the conditions described in this curriculum and in applicable acts and ministerial orders.",
+      "text": "KEA regularly evaluates student activity. To be considered active, students must participate in <ul><li>project start-up meetings</li><li>compulsory meetings with their supervisor/lecturer</li><li>project work, including submission of assignments on the learning platform for the Multimedia</li><li>Design and Communication programme</li><li>project presentations and evaluations</li><li>tests and exams as described in this curriculum</li><li>a number of compulsory assignments each semester. These assignments must be approved for students to be able to register for exams in the semester in question.</li></ul>Students who are unable to participate in study activities due to documented illness or for other acceptable reasons must contact the administration for the Multimedia Design and Communication programme immediately. The administration will inform the student about the necessary procedures, including the need to obtain a medical certificate. Students must pay for any medical certificates themselves. "
+    }
+  ]
+},
+
+{
+  "article": "TAECHING-METHODS",
+  "sections": [
+    {
+      "id": "sec8",
+      "title": "Teaching and working methods",
+      "short": "The teaching is a combination of classroom instruction, lectures, workshops, study groups, exercises, major project work and not least guidance. The teaching is planned on the basis of relevant business practice and applied theory.",
+      "text": "On the programme, teaching methods are used which are aimed at developing the students’ independence as well as their collaborative and innovative skills. In so far as is relevant, the programme covers issues like entrepreneurship, environmental issues and the dynamics of intercultural encounters."
+    },
+    {
+      "id": "sec9",
+      "title": "Practice-oriented learning",
+      "short": "The teaching is interdisciplinary and practice-oriented. It primarily takes place in an open environment rather than the traditional classroom setting.",
+      "text": " The learning environment is designed to be flexible, so as to allow lecturers and students to meet in both formal and informal settings to tackle interdisciplinary problems in connection with projects and tasks undertaken for public and private organisations."
+    }
+  ]
+ }
+
+]
