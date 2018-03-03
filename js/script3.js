@@ -149,13 +149,17 @@ function myFunction() {
         document.querySelectorAll("path").forEach(e => {
             e.classList.remove("path");})
     }
-    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
-        console.log("w")
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 500) {
         document.querySelectorAll(".chart").forEach(e => {
             e.classList.add("chart-skills3");})
     } else {
         document.querySelectorAll(".chart").forEach(e => {
             e.classList.remove("chart-skills3");})
     }
+    if (document.body.scrollTop > 2300 || document.documentElement.scrollTop > 2500) {
+        console.log("globe")
+        document.querySelector(".exchange-svg").classList.remove("globe-svg-hide");}
+    else {
+       document.querySelector(".exchange-svg").classList.add("globe-svg-hide");}
+    }
 
-}

@@ -386,7 +386,7 @@ a {
 .svg-div{
     position: relative;
 }
-svg {
+.svg-men {
     position: absolute;
     left: -25em;
     width: 61em;
@@ -424,7 +424,7 @@ svg {
   top: 52%;
   left: 18%;
   transform: translateX(-50%) translateY(-50%);
-    font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 .btn:before,
@@ -456,5 +456,82 @@ svg {
   }
   100% {
     transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+/* exchange svg animation */
+.exchange-svg{
+ width: 22em;
+    justify-self: center;
+    align-self: center;
+}
+.globe-svg-hide {
+  display:none;
+}
+#circle {
+  animation: show-circle 0.5s forwards;
+}
+@keyframes show-circle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#earth {
+  animation: show-earth 1s forwards;
+  animation-delay: 1s;
+}
+@keyframes show-earth {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#hat {
+  animation: drop-hat 1s forwards;
+  animation-delay: 2s;
+}
+@keyframes drop-hat {
+  0% {
+    transform: translateY(-50px);
+    opacity:0;
+  }
+  100% {
+    transform: translateY(50px);
+    opacity:1;
+  }
+}
+#shadow {
+  animation: drop-shadow 1s forwards;
+  animation-delay: 2.5s;
+}
+@keyframes drop-shadow {
+  0% {
+    transform: translate(20px,20px);
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+#strings {
+  animation: swing 2s infinite;
+}
+@keyframes swing {
+  0% {
+    transform: translate(1px,1px) rotate(1deg);
+
+  }
+  50% {
+    transform: translate(-1px,-1px) rotate(-1deg);
+
+  }
+  100%{
+    transform: translate(1px,1px) rotate(1deg);
+
   }
 }
