@@ -157,9 +157,19 @@ function myFunction() {
             e.classList.remove("chart-skills3");})
     }
     if (document.body.scrollTop > 2300 || document.documentElement.scrollTop > 2500) {
-        console.log("globe")
-        document.querySelector(".exchange-svg").classList.remove("globe-svg-hide");}
-    else {
-       document.querySelector(".exchange-svg").classList.add("globe-svg-hide");}
+        document.querySelectorAll(".a").forEach(e => {
+            e.classList.add("b");})
+    } else {
+        document.querySelectorAll(".a").forEach(e => {
+            e.classList.remove("b");})
     }
+    if (document.body.scrollTop > 1800 || document.documentElement.scrollTop > 2000) {
+        console.log("exam")
+        document.querySelectorAll(".a").forEach(e => {
+            e.classList.add("c");})
+    } else {
+        document.querySelectorAll(".a").forEach(e => {
+            e.classList.remove("c");})
+    }
+}
 
